@@ -1,0 +1,5 @@
+<?php
+$n = (int)readline();
+for ($i = 1; $i <= $n; $i++) {
+    print str_repeat($i . " ", $i) . PHP_EOL;
+}
