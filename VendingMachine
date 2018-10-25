@@ -1,6 +1,6 @@
 <?php
 $sum = 0;
-do {
+while ($coins !== "Start") {
     $coins = readline();
     if ($coins == "Start") {
         break;
@@ -10,7 +10,7 @@ do {
     } else {
         echo "Cannot accept $coins" . PHP_EOL;
     }
-} while ($coins !== "Start");
+}
  $newSum = 0;
 do {
     $product = readline();
